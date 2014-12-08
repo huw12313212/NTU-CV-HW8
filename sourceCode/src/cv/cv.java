@@ -98,7 +98,7 @@ public class cv {
 		 WriteOut(saltAndPepper01_Median33,"./assets/saltAndPepper01_Median33.im");
 		 System.out.println("saltAndPepper01_Median33:"+CalculateSNR(bytes,saltAndPepper01_Median33,headerLength));
 		 WriteOut(saltAndPepper01_Median55,"./assets/saltAndPepper01_Median55.im");
-		 System.out.println("saltAndPepper01_Box55:"+CalculateSNR(bytes,saltAndPepper01_Box55,headerLength));
+		 System.out.println("saltAndPepper01_Median55:"+CalculateSNR(bytes,saltAndPepper01_Median55,headerLength));
 		 WriteOut(saltAndPepper01_Opening_Closing,"./assets/saltAndPepper01_Opening_Closing.im");
 		 System.out.println("saltAndPepper01_Opening_Closing:"+CalculateSNR(bytes,saltAndPepper01_Opening_Closing,headerLength));
 		 WriteOut(saltAndPepper01_Closing_Opening,"./assets/saltAndPepper01_Closing_Opening.im");
