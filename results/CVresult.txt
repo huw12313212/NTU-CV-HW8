@@ -1,0 +1,25 @@
+CV result
+gaussianNoise10_Box33:17.83043
+gaussianNoise10_Box55:14.884616
+gaussianNoise10_Median33:17.946619
+gaussianNoise10_Median55:16.087215
+gaussianNoise10_Opening_Closing:8.581979
+gaussianNoise10_Closing_Opening:7.6555357
+gaussianNoise30_Box33:12.648438
+gaussianNoise30_Box55:13.348516
+gaussianNoise30_Median33:11.263369
+gaussianNoise30_Median55:13.085466
+gaussianNoise30_Opening_Closing:8.579728
+gaussianNoise30_Closing_Opening:6.0653872
+saltAndPepper01_Box33:6.338612
+saltAndPepper01_Box55:8.50791
+saltAndPepper01_Median33:14.863498
+saltAndPepper01_Median55:15.747424
+saltAndPepper01_Opening_Closing:-2.1881049
+saltAndPepper01_Closing_Opening:-2.777967
+saltAndPepper005_Box33:9.468221
+saltAndPepper005_Box55:11.184831
+saltAndPepper005_Median33:19.097776
+saltAndPepper005_Median55:16.332739
+saltAndPepper005_Opening_Closing:4.3230243
+saltAndPepper005_Closing_Opening:3.8816488
