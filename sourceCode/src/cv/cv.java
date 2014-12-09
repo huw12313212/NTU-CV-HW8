@@ -209,15 +209,12 @@ public class cv {
 						}
 					}
 				}
-				
 				int globalX = x + kernel.OriginX;
 				int globalY = y + kernel.OriginY;
 				int globalIndex = headerLength+globalY * width + globalX;
 				results.set(globalIndex, min);
-
 			}
 		}
-		
 		return results;
 	}
 	
@@ -338,12 +335,9 @@ public class cv {
 						candidate.add(pixel);
 					}
 				}
-				
 				results.set(headerLength + y * width + x, Median(candidate));
-				
 			}	
 		}
-		
 		return results;
 	}
 	
@@ -381,7 +375,6 @@ public class cv {
 	public static ArrayList<Integer> SaltAndPeper(ArrayList<Integer> origin,float threshold,int headerLength, int width, int height)
 	{
 		ArrayList<Integer> results = InitWhite(origin,headerLength,width,height);
-		
 		for(int y = 0 ; y < height; y++)
 		{
 			for(int x = 0 ; x < width ; x++)
@@ -399,34 +392,26 @@ public class cv {
 				{
 					pixel = 255;
 				}
-				
 				results.set(index,pixel);
 			}
 		}
-		
 		return results;
 	}
 	
 	public static ArrayList<Integer> GaussianNoise( ArrayList<Integer> origin,int amplitude,int headerLength, int width, int height)
 	{
 		ArrayList<Integer> results = InitWhite(origin,headerLength,width,height);
-		
 		for(int y = 0 ; y < height; y++)
 		{
 			for(int x = 0 ; x < width ; x++)
 			{
 				int index = headerLength + y*width + x;
-				
 				int pixel = origin.get(index) + (int)(amplitude*random.nextGaussian());
-				
 				if(pixel<0)pixel = 0;
-				
 				if(pixel>255)pixel = 255;
-				
 				results.set(index, pixel);
 			}
 		}
-		
 		return results;
 	}
 	
